@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --Midnight-Blue: #0d192c;
+  --Stormy-Blue: #15263f;
+  --Dusty-Blue: #8bacd9;
+  --Electric-Cyan: #00fff8;
+  --White: #ffffff;
+}
+
+/* 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Midnight-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100dvh;
+}
+
+.card {
+  background-color: var(--Stormy-Blue);
+  width: 100%;
+  max-width: 32.7rem;
+  border-radius: 1.5rem;
+  padding: 2.4rem 2.5rem 2.4rem 2.4rem;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.75);
+}
+
+.equilibrium {
+  width: 100%;
+  max-width: 27.8rem;
+  margin: 0 0 2rem;
+  border-radius: 0.8rem;
+}
+
+.creator-img {
+  width: 100%;
+  max-width: 3.3rem;
+  border: 0.1rem solid var(--White);
+  border-radius: 50%;
+}
+.heading {
+  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  color: var(--White);
+  font-weight: 650;
+}
+
+.heading:hover {
+  color: var(--Electric-Cyan);
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1.7rem;
+  color: var(--Dusty-Blue);
+  font-weight: 300;
+  line-height: 1.44;
+  margin-bottom: 1.6rem;
+}
+
+.divider {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.etherium-icon {
+  width: 100%;
+  max-width: 1.1rem;
+  margin-right: 0.5rem;
+  flex-grow: 0;
+  height: 1.8rem;
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+}
+
+.time-left {
+  width: 100%;
+  width: 13.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.clock-icon {
+  margin-right: 0.5rem;
+  flex-grow: 0;
+  width: 100%;
+  max-width: 1.6rem;
+  height: auto;
+  max-height: 1.6rem;
+}
+.price {
+  color: var(--Electric-Cyan);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.days-left {
+  font-size: 1.5rem;
+  color: var(--Dusty-Blue);
+}
+
+.divider {
+  border: 0;
+  height: 0.1rem;
+  background-color: #2e405a;
+}
+
+.creator-desc {
+  color: var(--Dusty-Blue);
+}
+
+a {
+  color: var(--White);
+  font-weight: 300;
+  margin-left: 0.5rem;
+}
+
+a:hover {
+  color: var(--Electric-Cyan);
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.creator {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+}
+
+.creator-desc {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
